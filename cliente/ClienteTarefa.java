@@ -59,10 +59,7 @@ public class ClienteTarefa {
 		
 		recebeComando.start();
 		enviaComando.start();
-		
 		enviaComando.join();
-		
-		System.out.println("Finalizando conexão");
 		
 		socket.close();
 	}
